@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.22.0 - May 29, 2023
+
+**New Features**
+
+-   Added `Map.add_inspector()` method (#1544)
+-   Added `Map.add_layer_manager()` method (#1544)
+
+**Improvement**
+
+-   Simplified the geemap module (#1544)
+-   Deprecated the heremap module (#1543)
+
+## v0.21.0 - May 29, 2023
+
+**New Features**
+
+-   Added support for Solara (#1541)
+-   Added segmentation notebook (#1539)
+-   Added SciPy workshop notebook (#1538)
+
 ## v0.20.7 - May 16, 2023
 
 **New Features**

@@ -21,7 +21,7 @@
         <link rel="next" href="../26_heroku/">
       
       <link rel="icon" href="../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.13">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
     
     
       
@@ -29,10 +29,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -929,6 +929,20 @@
     <li class="md-nav__item">
       <a href="../../workshops/AmericaView_2023/" class="md-nav__link">
         AmericaView 2023
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workshops/SciPy_2023/" class="md-nav__link">
+        SciPy 2023
       </a>
     </li>
   
@@ -2554,8 +2568,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../112_cartoee_basemap_X/" class="md-nav__link">
-        112 cartoee basemap X
+      <a href="../112_cartoee_basemap_X.ipynb" class="md-nav__link">
+        None
       </a>
     </li>
   
@@ -2864,6 +2878,20 @@
     <li class="md-nav__item">
       <a href="../134_ee_to_geotiff/" class="md-nav__link">
         134 ee to geotiff
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../135_segmentation/" class="md-nav__link">
+        135 segmentation
       </a>
     </li>
   
@@ -3950,7 +3978,7 @@ Licensed under the Apache License, Version 2.0.
     init_mathjax();
     </script>
     <!-- End of mathjax configuration --><div class="jupyter-wrapper">
-<div id="cell-id=714c518a" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=7d670d74" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -3963,7 +3991,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=12a3ddbe" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=bbda88a5" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -3995,7 +4023,7 @@ Licensed under the Apache License, Version 2.0.
 
 </div>
 </div>
-<div id="cell-id=2f059e65" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=4adbc90c" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4013,7 +4041,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 </div>
 </div>
-<div id="cell-id=cd44c439" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=5764dc8c" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4025,7 +4053,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=bc5659ba" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=8e1451b3" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4059,7 +4087,7 @@ import geemap</div>
 
 </div>
 </div>
-<div id="cell-id=e1c669ed" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=17a23ac9" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4071,7 +4099,7 @@ import geemap</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=aba1f8aa" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=b743afd3" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4115,7 +4143,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 
 </div>
 </div>
-<div id="cell-id=fecee41a" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=926c8f90" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4128,7 +4156,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=55739603" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=520fe6d9" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4164,7 +4192,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=3aeae3a5" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=2711648d" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4200,7 +4228,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 
 </div>
 </div>
-<div id="cell-id=2b985118" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=5d886e77" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4212,7 +4240,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=52f1a3ee" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=1bea016c" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4244,7 +4272,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 
 </div>
 </div>
-<div id="cell-id=123ba883" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=aa8d215d" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4257,7 +4285,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=4c88a078" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=5874d136" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4289,7 +4317,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=d14209fc" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=d01f91bd" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4321,7 +4349,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 
 </div>
 </div>
-<div id="cell-id=a10c191b" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=2fb032e2" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -4333,7 +4361,7 @@ dem = os.path.join(out_dir, 'dem.tif')</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div id="cell-id=98e0c11c" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div id="cell-id=06f98664" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>

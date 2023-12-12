@@ -1,5 +1,91 @@
 # Changelog
 
+## v0.29.6 - Nov 26, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.5 by @giswqs in [#1820](https://github.com/gee-community/geemap/pull/1820)
+-   Add NCSU workshop notebook by @giswqs in [#1827](https://github.com/gee-community/geemap/pull/1827)
+-   Fix typo and deprecate plt.get_cmap function by @giswqs in [#1829](https://github.com/gee-community/geemap/pull/1829)
+-   common.py: typo fixes by @schwehr in [#1828](https://github.com/gee-community/geemap/pull/1828)
+-   Fix samgeo notebook bug by @giswqs in [#1835](https://github.com/gee-community/geemap/pull/1835)
+-   Improve js-py auto conversion by @giswqs in [#1836](https://github.com/gee-community/geemap/pull/1836)
+-   Add AGU workshop notebook by @giswqs in [#1837](https://github.com/gee-community/geemap/pull/1837)
+-   Add a step param to timelapse functions by @giswqs in [#1839](https://github.com/gee-community/geemap/pull/1839)
+
+**Full Changelog**: [v0.29.5...v0.29.6](https://github.com/gee-community/geemap/compare/v0.29.5...v0.29.6)
+
+## v0.29.5 - Nov 3, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.4 by @giswqs in [#1810](https://github.com/gee-community/geemap/pull/1810)
+-   Fix removing layer bug by @giswqs in [#1813](https://github.com/gee-community/geemap/pull/1813)
+-   Add Map.layer_to_image method by @giswqs in [#1815](https://github.com/gee-community/geemap/pull/1815)
+-   Add vis_params option for layer_to_image by @giswqs in [#1818](https://github.com/gee-community/geemap/pull/1818)
+-   Fix set css cell output error by @giswqs in [#1819](https://github.com/gee-community/geemap/pull/1819)
+
+**Full Changelog**: [v0.29.4...v0.29.5](https://github.com/gee-community/geemap/compare/v0.29.4...v0.29.5)
+
+## v0.29.4 - Nov 2, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.3 by @giswqs in [#1807](https://github.com/gee-community/geemap/pull/1807)
+-   Fix draw control marker bug by @giswqs in [#1809](https://github.com/gee-community/geemap/pull/1809)
+
+**Full Changelog**: [v0.29.3...v0.29.4](https://github.com/gee-community/geemap/compare/v0.29.3...v0.29.4)
+
+## v0.29.3 - Nov 1, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.2 by @giswqs in [#1799](https://github.com/gee-community/geemap/pull/1799)
+-   Fix removing drawn feature bug by @giswqs in [#1805](https://github.com/gee-community/geemap/pull/1805)
+-   Add stretch options for visualizing images by @aazuspan in [#1803](https://github.com/gee-community/geemap/pull/1803)
+-   Improve ee authentication on Colab by @giswqs in [#1806](https://github.com/gee-community/geemap/pull/1806)
+
+**Full Changelog**: [v0.29.2...v0.29.3](https://github.com/gee-community/geemap/compare/v0.29.2...v0.29.3)
+
+## v0.29.2 - Oct 25, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.1 by @giswqs in [#1783](https://github.com/gee-community/geemap/pull/1783)
+-   **init**.py: Do not wrap an exception when reraising. by @schwehr in [#1785](https://github.com/gee-community/geemap/pull/1785)
+-   Fix draw control geodesic bug by @giswqs in [#1797](https://github.com/gee-community/geemap/pull/1797)
+-   Add notebook 138 for using draw control by @giswqs in [#1798](https://github.com/gee-community/geemap/pull/1798)
+
+**Full Changelog**: [v0.29.1...v0.29.2](https://github.com/gee-community/geemap/compare/v0.29.1...v0.29.2)
+
+## v0.29.1 - Oct 17, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.0 by @giswqs in [#1765](https://github.com/gee-community/geemap/pull/1765)
+-   Minor updates to G4G notebook by @giswqs in [#1766](https://github.com/gee-community/geemap/pull/1766)
+-   Fix ee_to_df missing column bug by @giswqs in [#1776](https://github.com/gee-community/geemap/pull/1776)
+-   Optimize create_timeseries for memory by @jdbcode in [#1781](https://github.com/gee-community/geemap/pull/1781)
+-   Keep three camelCase methods by @giswqs in [#1777](https://github.com/gee-community/geemap/pull/1777)
+-   Improve Colorbar for supporting numpy dtypes by @rodrigo-j-goncalves in [#1782](https://github.com/gee-community/geemap/pull/1782)
+
+**New Contributors**
+
+-   @rodrigo-j-goncalves made their first contribution in [#1782](https://github.com/gee-community/geemap/pull/1782)
+
+**Full Changelog**: [v0.29.0...v0.29.1](https://github.com/gee-community/geemap/compare/v0.29.0...v0.29.1)
+
+## v0.29.0 - Oct 7, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.28.2 by @giswqs in [#1760](https://github.com/gee-community/geemap/pull/1760)
+-   Fix raster editor bug by @giswqs in [#1762](https://github.com/gee-community/geemap/pull/1762)
+-   Update G4G Colab notebook by @giswqs in [#1764](https://github.com/gee-community/geemap/pull/1764)
+-   Ensure toolbar buttons toggle widgets, and turn off when widgets are closed. by @sufyanAbbasi in [#1763](https://github.com/gee-community/geemap/pull/1763)
+
+**Full Changelog**: [v0.28.2...v0.29.0](https://github.com/gee-community/geemap/compare/v0.28.2...v0.29.0)
+
 ## v0.28.2 - Oct 4, 2023
 
 **What's Changed**
